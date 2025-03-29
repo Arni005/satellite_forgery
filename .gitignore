@@ -1,0 +1,42 @@
+# Ignore Python virtual environment
+bin/
+include/
+lib/
+lib64/
+venv/
+env/
+
+# Ignore Python dependencies
+__pycache__/
+*.pyc
+*.pyo
+__init__.py
+
+# Ignore environment files
+.env
+*.log
+
+# Ignore package manager dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Docker-related files
+*.dockerfile
+docker-compose.yml
+
+.pytest_cache
+
+
+# Ignore environment variables & credentials
+config.json
+secrets.json
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.iml
