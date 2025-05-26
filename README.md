@@ -13,15 +13,15 @@ This is the **backend API** of the Satellite Forgery Detection project. It power
 ---
 
 ## 📂 Project Structure
-.
-├── app/
-│ ├── main.py # FastAPI entry point
-│ ├── model.py # Model loading & prediction logic
-│ └── utils.py # Helper functions
-├── requirements.txt # Backend dependencies
-├── README.md # You're here!
-└── model/
-└── my_trained_model.pt # (Local only) PyTorch model file
+   .
+    ├── app/
+<br>│ ├── main.py # FastAPI entry point
+<br>│ ├── model.py # Model loading & prediction logic
+<br>│ └── utils.py # Helper functions
+<br>├── requirements.txt # Backend dependencies
+<br>├── README.md # You're here!
+<br>└── model/
+<br>└── my_trained_model.pt # (Local only) PyTorch model file
 
 ## ⚙️ Installation
 
