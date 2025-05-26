@@ -1,4 +1,4 @@
-# 🛰️ Satellite Forgery Detection - FastAPI Backend
+# 🛰️ Satellite Forgery Detection - [FastAPI Backend]
 
 This is the **backend API** of the Satellite Forgery Detection project. It powers the ML model for detecting tampered satellite images using a Convolutional Neural Network (CNN) trained with **PyTorch**. This backend is built using **FastAPI** for efficient, high-performance APIs.
 
