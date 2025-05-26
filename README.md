@@ -28,18 +28,23 @@ This is the **backend API** of the Satellite Forgery Detection project. It power
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Arni005/Satellite_forgery-complete-.git
+git clone https://github.com/Arni005/satellite_forgery.git
 cd Satellite_forgery-complete-/app
-
-2. Create a virtual environment (recommended)
+```
+### 2. Create a virtual environment (recommended)
+```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-3. Install dependencies
+ ### 3. Install dependencies
+ ```bash
 pip install -r requirements.txt
-
-▶️ Running the Server
+```
+### ▶️ Running the Server
+```bash
 uvicorn main:app --reload
+```
 
 🔗 Frontend Integration
 This backend is integrated with an HTML/CSS/JS frontend that sends images via POST /predict to get detection results in real time.
