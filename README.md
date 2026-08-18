@@ -21,7 +21,7 @@ This is the **backend API** of the Satellite Forgery Detection project. It power
 <br>├── requirements.txt # Backend dependencies
 <br>├── README.md # You're here!
 <br>└── model/
-<br>└── my_trained_model.pt # (Local only) PyTorch model file
+<br>└── my_trained_model.pt # (Local only) Tensorflow model file
 
 ## ⚙️ Installation
 
